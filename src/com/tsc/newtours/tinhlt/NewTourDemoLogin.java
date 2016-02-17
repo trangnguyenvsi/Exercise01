@@ -14,7 +14,7 @@ public class NewTourDemoLogin {
 		
 		driver.get("http://newtours.demoaut.com/mercuryregister.php");
 		System.out.println("abcdef");
-		
+		System.out.println("zzzz");
 	}	 
 }
 
