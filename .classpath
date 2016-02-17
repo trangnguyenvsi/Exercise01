@@ -55,5 +55,6 @@
 	<classpathentry kind="lib" path="D:/quyentx/Data/Git/selenium-java-2.52.0/selenium-2.52.0/libs/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="D:/quyentx/Data/Git/selenium-java-2.52.0/selenium-2.52.0/selenium-java-2.52.0.jar"/>
 	<classpathentry kind="lib" path="D:/quyentx/Data/Git/selenium-java-2.52.0/selenium-2.52.0/selenium-java-2.52.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/Tài Liệu Dự Án/Selenium/selenium-server-standalone-2.52.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
