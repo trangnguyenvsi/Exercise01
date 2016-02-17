@@ -1,4 +1,4 @@
-package com.tsc.seleniumex.quyentx;
+package com.tsc.newtours.quyentx;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
