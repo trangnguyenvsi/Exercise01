@@ -74,25 +74,20 @@ public class NewTourDemoLogin {
 			WebElement toPort = driver.findElement(By.name("toPort"));
 			Select selecttPort = new Select(toPort);
 			boolean tPort = selecttPort.getFirstSelectedOption().getAttribute("value").equals("Acapulco");
-			
-					
+	
 			WebElement servClass = driver.findElement(By.name("servClass"));
 			WebElement airline = driver.findElement(By.name("airline"));
-			
-			WebElement fromMonth = driver.findElement(By.name("fromDay"));
-			
+			Select selectairline = new Select(airline);
+			boolean aline = selectairline.getFirstSelectedOption().getAttribute("value").equals("No Preference");
+//			WebElement fromMonth = driver.findElement(By.name("fromDay"));			
 //			System.out.println(selectpassCount.getFirstSelectedOption().getAttribute("value"));
-						
 			
-			
-			
-			
-//			if ((roundtrip.isSelected()) && (selectpassCount.g) && ()  && () && () && ())
-			if ((roundtrip.isSelected()) && (selectpassCount.getFirstSelectedOption().getAttribute("value").equals("1")) && (selectfromPort.getFirstSelectedOption().getAttribute("value").equals("Acapulco")))
+			if ((roundtrip.isSelected()) && Count && fPort  && tPort && (servClass.isSelected()) && aline)
+//			if ((roundtrip.isSelected()) && (selectpassCount.getFirstSelectedOption().getAttribute("value").equals("1")) && (selectfromPort.getFirstSelectedOption().getAttribute("value").equals("Acapulco")))
 			{
-				System.out.println("abcd");
+				System.out.println("TC2: This test case is OK");
 			}
-			System.out.println("TC2: This test case is OK");
+			
 		}
 			
 		else
